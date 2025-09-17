@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/backgrounds/bows.jpg');
+}
+
+.wrapper {
+    width: 500px;
+    background: rgba(252, 218, 218, 0.678);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 45%;
+    background: rgb(129, 58, 53);
+    align-content: center;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(70, 6, 6, 0.5);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    padding: 20px 25px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: rgb(2, 0, 0);
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 100%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .forgot-password {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+    padding: 10px 10px 5px 5px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.forgot-password a {
+    color: #000;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    align-self: center;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 300;
+}
+
+.wrapper .sign-up-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.sign-up-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sign-up-link p a:hover {
+    text-decoration: underline;
+}
