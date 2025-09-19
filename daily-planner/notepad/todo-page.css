@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "AlexBrush";
+    src: url("/fonts/Alex_Brush/AlexBrush-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat/static/Montserrat-Black.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'AlexBrush', AlexBrush;
+}
+
+body {
+    font-family: 'Montserrat', montserrat;
+}
